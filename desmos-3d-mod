@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Desmos 3D Mod</title>
+  <script src="https://www.desmos.com/api/v1.11/calculator.js?apiKey=YOUR_API_KEY"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+  <style>
+    body { margin: 0; background: #101522; color: white; font-family: sans-serif; }
+    #calculator { width: 100%; height: 55vh; }
+    #scene { width: 100%; height: 35vh; }
+  </style>
+</head>
+<body>
+  <h2>Desmos 3D Mod</h2>
+  <div id="calculator"></div>
+  <div id="scene"></div>
+  <script src="desmos3d.js"></script>
+</body>
+</html>
